@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+import Header from './Components/Header/Header';
+import MainPage from './Components/MainPage/MainPage';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div>This is the header with buttons</div>
-      <div>This is main page</div>
+      <Header></Header>
+      <MainPage></MainPage>
       <div> This will be the Form to actually rate your dorm</div>
       <div> contact me page</div>
     </div>
