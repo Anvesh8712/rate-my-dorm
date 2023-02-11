@@ -1,5 +1,7 @@
 import Header from './Components/Header/Header';
 import MainPage from './Components/MainPage/MainPage';
+import Form from './Components/Form/Form';
+import ContactMe from './Components/ContactMe/ContactMe';
 import './App.css';
 
 function App() {
@@ -7,8 +9,8 @@ function App() {
     <div className="App">
       <Header></Header>
       <MainPage></MainPage>
-      <div> This will be the Form to actually rate your dorm</div>
-      <div> contact me page</div>
+      <Form></Form>
+      <ContactMe></ContactMe>
     </div>
   );
 }
